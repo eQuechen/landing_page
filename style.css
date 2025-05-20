@@ -565,20 +565,13 @@ footer .copyright p {
     margin-top: 1rem;
 }
 
-.contenido_contacto form div input,
-.contenido_contacto form div textarea {
+.contenido_contacto form div .text-input, .boton-enviar {
+    display: block;
     width: 100%;
     border: 1px solid black;
     border-radius: 0.5rem;
-    margin: 0.5rem 0 1rem;
-}
-
-.contenido_contacto form input {
-    display: block;
-    width: 100%;
     padding: 0.8rem;
-    border: none;
-    border-radius: 8px;
+    margin: 0.5rem 0 1rem;
     cursor: pointer;
 }
 
